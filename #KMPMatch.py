@@ -1,4 +1,4 @@
-#KMPMatch
+#KMPMatch	
 
 
 def KMPMatch(pattern, text):
@@ -63,7 +63,7 @@ def computeLPSArray(pattern, M, lps):
 if __name__ == '__main__':
 	text = "TREETRESTREESN"
 	pattern = "TREES"
-	print (text)
-	print (pattern)
+	print ("Text: " + text)
+	print ("Pattern: " + pattern)
 	KMPMatch(pattern, text)
 
